@@ -1,0 +1,111 @@
+.menu { list-style-type: none;
+margin: 2;
+padding: 2;
+font-family: Arial, Arial, Helvetica, sans-serif;
+font-weight: bold;
+overflow: hidden;
+background-color: black;
+}
+.menu li { float: left;
+}
+.menu li a { display: block;
+color: white;
+text-align: justify;
+padding: 14px 16px;
+text-decoration: none;
+}
+.menu li a:hover { background-color: white;
+-moz-box-shadow: 1px 3px 10px 0 #ccc;
+-webkit-box-shadow: 0 3px 10px 0 #ccc;
+text-shadow: 0px 0px 5px #fff;
+color: black;
+}
+.menu li ul { position: relative;
+top: 0;
+left: 0;
+background-color: #fff;
+z-index: 10;
+display: none;
+}
+.menu li:hover ul, .menu li.over ul { display: block;
+}
+
+.active { background-color: rgb(255, 0, 0);
+}
+
+.logo { position: absolute;
+float: right;
+width: 240px;
+height: 240px;
+top: -12px;
+}
+.logo img { position: relative;
+width: 280px;
+height: 280px;
+}
+
+.banner1 { position: absolute;
+left: 23%;
+top: 1.5%;
+}
+
+.fundo li { position: static;
+float: right;
+width: 2200px;
+height: 250px;
+top: 3%;
+border-top-right-radius: 10px;
+background-color: white;
+}
+
+.cardapio { position: absolute;
+width: 800px;
+height: 900px;
+left: 24.5%;
+top: 53.6%;
+border: solid;
+border-radius: 7px;
+background-color: white;
+}
+
+.cardapio .titulo {
+color: black;
+text-decoration: none;
+list-style-type: none;
+border-bottom: solid;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 72px;
+text-align: center;
+}
+
+.conteudo .titulo2 { position: absolute;
+color: black;
+list-style-type: none;
+text-decoration: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 36px;
+top: 70%;
+left: 26%;
+}
+.conteudo .bebidas { position: absolute;
+}
+
+
+.conteudo .titulo3 { position: absolute;
+color: black;
+list-style-type: none;
+text-decoration: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 36px;
+top: 70%;
+left: 57%;
+}
+
+.linha_h1 { position: absolute;
+width: 5px;
+height: 740px;
+background-color: black;
+border-radius: 10px;
+left: 55%;
+top: 74%;
+}
